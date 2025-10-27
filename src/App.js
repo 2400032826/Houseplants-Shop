@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ProductList from "./pages/ProductList";
 
 function App() {
+  const [showHome, setShowHome] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center", marginTop: "30px" }}>
+      {showHome ? (
+        <div>
+          <h1>🌿 Welcome to Houseplants Shop 🌿</h1>
+          <p>We sell beautiful indoor plants to brighten your home.</p>
+          <button onClick={() => setShowHome(false)}>Get Started</button>
+        </div>
+      ) : (
+        <ProductList />
+      )}
     </div>
   );
 }
