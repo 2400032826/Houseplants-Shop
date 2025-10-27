@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Houseplants-Shop/static/css/main.a753a485.css",
-    "main.js": "/Houseplants-Shop/static/js/main.f0ced761.js",
+    "main.js": "/Houseplants-Shop/static/js/main.4f2e2741.js",
     "index.html": "/Houseplants-Shop/index.html",
     "main.a753a485.css.map": "/Houseplants-Shop/static/css/main.a753a485.css.map",
-    "main.f0ced761.js.map": "/Houseplants-Shop/static/js/main.f0ced761.js.map"
+    "main.4f2e2741.js.map": "/Houseplants-Shop/static/js/main.4f2e2741.js.map"
   },
   "entrypoints": [
     "static/css/main.a753a485.css",
-    "static/js/main.f0ced761.js"
+    "static/js/main.4f2e2741.js"
   ]
 }
